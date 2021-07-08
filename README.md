@@ -24,6 +24,7 @@ $ pip2 install urlparse
 $ termux-setup-storage
 $ git clone https://github.com/ROY-ID/roy-mbc
 $ cd roy-mbc
+$ nano login.txt
 $ python2 roy-mbc
 ````
 # Perintah Update SC
