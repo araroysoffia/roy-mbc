@@ -655,10 +655,11 @@ def crack():
 				
 				
 	print(" \033[0;97m[\033[0;93m*\033[0;97m] Total ID  : \033[0;91m"+str(len(id)))
-	print("\n \033[0;97m[\x1b[1;92mT\033[0;97m] mbasic (Sandi Default) \x1b[1;92mOK\x1b[0m")
+	print("\n \033[0;97m[\x1b[1;92m?\033[0;97m] Pilih Metode Crack & Kata Sandi?? \x1b[1;92mY\x1b[0m/\x1b[1;92mT\x1b[0m/\x1b[1;92mA")
+	print(" \033[0;97m[\x1b[1;92mT\033[0;97m] mbasic (Sandi Default) \x1b[1;92mOK\x1b[0m")
 	print(" \033[0;97m[\x1b[1;92mA\033[0;97m] api (Sandi Manual) \x1b[1;92mOK\x1b[0m")
 	print(" \033[0;97m[\x1b[1;92mY\033[0;97m] mbasic (Sandi Manual) \x1b[1;92mOK\x1b[0m")
-	ask = raw_input("\n \033[0;97m[*] Pilih Metode Crack & Kata Sandi?? Y/T/A : ")
+	ask = raw_input("\n \033[0;97m[*] Pilih : ")
 	if ask == "Y" or ask == "y":
 		manual()
 	if ask == "A" or ask == "a":
